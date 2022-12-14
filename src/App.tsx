@@ -9,7 +9,7 @@ import Wrapper from "./components/Wrapper/Wrapper";
 function App() {
   return (
     <>
-      <ContextualSaveBar show={true} />
+      <ContextualSaveBar/>
       <Button variant="contained">Button By Harsh</Button>
       <TextField placeholder="Enter user name.." />
       <br />
