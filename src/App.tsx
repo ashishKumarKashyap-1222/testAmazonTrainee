@@ -8,7 +8,7 @@ import Wrapper from './components/Wrapper/Wrapper';
 function App() {
   return (
     <>
-<Button variant="contained">Button By Harsh</Button>
+      <Button variant="contained">Button By Harsh</Button>
       <TextField placeholder='Enter user name..' />
       <br />
       <hr />
@@ -19,14 +19,12 @@ function App() {
             It is a custom wrapper component!
           </h1>
         </div>
-      <Pagination pages={5}/>
-
+        <Pagination pages={5} />
       </Wrapper>
-
       <br />
       <hr />
       <br />
-      
+
     </>
   );
 }
