@@ -3,7 +3,7 @@ import { useState } from "react"
 type dataFromUser = {
     url: string
     payload?: string | any
-    method?: string
+    method?: 'GET' | 'POST' | 'PUT'
 }
 
 export const useFetch = () => {
@@ -22,5 +22,5 @@ export const useFetch = () => {
             .catch(err => console.log(err))
     }
 
-    return { data, extractDataFromApi }
+    return [ data, extractDataFromApi ]
 }
