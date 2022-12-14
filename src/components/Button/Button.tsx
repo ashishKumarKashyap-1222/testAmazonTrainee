@@ -4,7 +4,7 @@ import ButtonCSS from "./button.module.css";
 interface ButtonProps extends Props {
   variant: "text" | "contained" | "outlined";
   status?: "info" | "error" | "success" | "warning";
-  onClick?: () => void
+  onClick?: () => void;
 }
 
 const Button = (props: ButtonProps) => {
@@ -13,7 +13,7 @@ const Button = (props: ButtonProps) => {
       className={
         ButtonCSS.btn +
         " " +
-        ButtonCSS[props.variant && `btn--${props.variant}` ] +
+        ButtonCSS[props.variant && `btn--${props.variant}`] +
         " " +
         ButtonCSS[`btn--${props.variant}-${props.status ?? ""}`]
       }
