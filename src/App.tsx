@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "./components/Button/Button";
+import Pagination from "./components/Pagination/Pagination";
+
 import TextField from './components/Textfield/Textfield';
 import Wrapper from './components/Wrapper/Wrapper';
 
@@ -17,6 +19,8 @@ function App() {
             It is a custom wrapper component!
           </h1>
         </div>
+      <Pagination pages={5}/>
+
       </Wrapper>
 
       <br />

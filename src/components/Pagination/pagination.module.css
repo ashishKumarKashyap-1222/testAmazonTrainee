@@ -1,0 +1,24 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.pagination button,
+.pagination input {
+    width: fit-content;
+    max-width: 30px;
+    text-align: center;
+    outline: none;
+    padding: 4px;
+    background: rgba(239, 239, 239, 0.3);
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.pagination input::-webkit-outer-spin-button,
+.pagination input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
