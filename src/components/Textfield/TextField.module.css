@@ -1,25 +1,25 @@
 .textfield {
+    align-items: center;
     border: 1.5px solid #999;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
     font-size: 20px;
     letter-spacing: normal;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
     margin: 10px 0;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .textfield input {
-    padding: 0 10px;
-    height: 30px;
-    width: 100%;
-    outline: none;
     border: none;
+    height: 30px;
+    outline: none;
+    padding: 0 10px;
+    width: 100%;
 }
 
 .textfield input:focus {
-    outline: 2px solid dodgerblue;
     border-radius: 5px;
+    outline: 2px solid dodgerblue;
 }
 
 ::placeholder {
@@ -28,10 +28,10 @@
 
 .label {
     display: block;
-    margin-left: 5px;
-    font-weight: 500;
     font-size: 16px;
+    font-weight: 500;
     margin-bottom: -13px;
+    margin-left: 5px;
 }
 
 .textfield--small {
@@ -43,5 +43,7 @@
 }
 
 .textfield--large {
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
 }
