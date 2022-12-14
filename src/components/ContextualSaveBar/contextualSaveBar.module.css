@@ -38,12 +38,12 @@
 }
 
 .discard {
-    background-color: rgb(240, 198, 198);
-    color: red;
+    background-color: rgba(189, 13, 13, 0.793);
+    color: white;
 }
 
 .save {
-    background-color: limegreen;
+    background-color: rgba(50, 205, 91, 0.761);
     color: white;
 }
 

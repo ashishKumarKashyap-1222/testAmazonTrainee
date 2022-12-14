@@ -21,7 +21,7 @@ const Button = (props: ButtonProps) => {
         ButtonCSS[props.destructive ? `btn--destructive` : '']
       }
       style={{ ...props.style }}
-      onClick={props.onClick}
+      onClick={() => { props.onClick && props.onClick() }}
     >
       {props.children}
     </button>
