@@ -1,11 +1,10 @@
-import React from 'react';
-import './App.css';
-import Button from './components/Button/Button';
+import React from "react";
+import Button from "./components/Button/Button";
 
 function App() {
   return (
     <div className="App">
-      <Button variant='contained'>Button By Harsh</Button>
+      <Button variant="contained">Button By Harsh</Button>
     </div>
   );
 }
