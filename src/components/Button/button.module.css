@@ -1,0 +1,85 @@
+.btn {
+    /* Same as btn variant text btn status info */
+    align-items: center;
+    appearance: none;
+    background-color: transparent;
+    border: 0px;
+    border-radius: 4px;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    box-sizing: border-box;
+    color: rgb(25, 118, 210);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    justify-content: center;
+    letter-spacing: 0.02857em;
+    line-height: 1.75;
+    margin: 0px;
+    min-width: 64px;
+    outline: 0px;
+    padding: 6px 8px;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    user-select: none;
+    vertical-align: middle;
+}
+
+.btn--contained {
+    background-color: rgb(25, 118, 210);
+    border: 0px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 6px 16px;
+}
+
+.btn--outlined {
+    border: 1px solid rgba(25, 118, 210, 0.5);
+    color: rgb(25, 118, 210);
+    padding: 5px 15px;
+}
+
+.btn--text-error {
+    color: #d32f2f;
+}
+
+.btn--text--success {
+    color: #2e7d32;
+}
+
+.btn--text--warning {
+    color: #ff9800;
+}
+
+.btn--contained-error {
+    background-color: #d32f2f;
+}
+
+.btn--contained-success {
+    background-color: #2e7d32;
+}
+
+.btn--contained-warning {
+    background-color: #ff9800;
+}
+
+.btn--outlined-error {
+    border-color: #d32f2f;
+    color: #d32f2f;
+}
+
+.btn--outlined-success {
+    border-color: #2e7d32;
+    color: #2e7d32;
+}
+
+.btn--outlined-warning {
+    border-color: #ff9800;
+    color: #ff9800;
+}
