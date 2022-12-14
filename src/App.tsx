@@ -1,4 +1,4 @@
-import TextField from './Components/Textfield/Textfield';
+import TextField from './components/Textfield/Textfield';
 
 function App() {
   return (
