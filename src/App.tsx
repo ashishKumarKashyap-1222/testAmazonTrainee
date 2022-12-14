@@ -8,7 +8,7 @@ import Wrapper from './components/Wrapper/Wrapper';
 function App() {
   return (
     <>
-      <Button variant="contained">Button By Harsh</Button>
+      <Button destructive>Button By Harsh</Button>
       <TextField placeholder='Enter user name..' />
       <br />
       <hr />
