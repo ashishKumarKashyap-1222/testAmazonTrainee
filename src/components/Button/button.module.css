@@ -57,9 +57,9 @@
     color: #ff9800;
 }
 
-.btn--contained-error {
+/* .btn--contained-error {
     background-color: #d32f2f;
-}
+} */
 
 .btn--contained-success {
     background-color: #2e7d32;
@@ -82,4 +82,9 @@
 .btn--outlined-warning {
     border-color: #ff9800;
     color: #ff9800;
+}
+
+.btn--destructive {
+    background-color: #D82C0D;
+    color: white;
 }

@@ -21,7 +21,6 @@ function App() {
         </div>
         <Pagination pages={5} />
       </Wrapper>
-
       <br />
       <hr />
       <br />
